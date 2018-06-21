@@ -1,0 +1,32 @@
+
+.InfoRow {
+  margin-left: 49px;
+  margin-bottom: 10px;
+}
+.Title {
+  font-size: 19px;
+  font-weight: 400;
+  color: black;
+  vertical-align: 4px;
+}
+.InfoMessage {
+  color: black;
+  font-weight: lighter;
+  white-space: initial;
+}
+.StatusContainer {
+  float: right;
+  margin-right: 62%;
+  padding-left: 15px;
+}
+.Container {
+  display: grid;
+  margin-left: 16px;
+}
+.MediaNumber {
+  color: black;
+  margin-left: 11px;
+  padding-left: 8px;
+  border-left: 1px solid;
+  vertical-align: 6px;
+}

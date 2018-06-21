@@ -1,0 +1,82 @@
+
+
+.UserHeader{
+  border-bottom: 1px solid #ccc;
+  height: 188px;
+  display: inline-flex;
+  width: 100%;
+  background-color: #f1f1f19c;
+  text-align: initial;
+  margin-bottom: 60px;
+
+  .ProfileImg{
+    height: 100%;
+    width: 200px;
+    display: grid;
+    margin-left: 40px;
+    text-align: center;
+    button {
+      margin-top: 12px;
+      height: 35px;
+      background: #3897f0;
+      color: #fff;
+      border-radius: 3px;
+      border: 1px solid #3897f0;
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 36px;
+      outline: 0;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      padding: 0 12px;
+      cursor: pointer;
+      box-shadow: 5px 5px 6px -4px rgba(0, 0, 0, 0.75);
+      &:hover {
+
+      }
+    }
+    img {
+      height: 150px;
+      width: 150px;
+      border-radius: 50%;
+      margin-top: 10px;
+      margin-left: 9px;
+    }
+  }
+  .ProfileInfo {
+    width: auto;
+    margin-top: 22px;
+    span {
+      font-size: 30px;
+      font-weight: 100;
+      margin-left: 30px;
+    }
+  }
+  .LogoutContainer {
+    width: 100%;
+    button {
+      margin-right: 20px;
+      margin-top: 10px;
+      float: right;
+      width: 92px;
+      height: 27px;
+      background: #fff;
+      color: black;
+      border-radius: 3px;
+      font-size: 14px;
+      font-weight: 200;
+      outline: 0;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      cursor: pointer;
+      box-shadow: 5px 5px 6px -4px rgba(0, 0, 0, 0.75);
+    }
+
+    &:hover {
+
+      }
+
+    }
+  }

@@ -1,0 +1,32 @@
+
+
+.Task{
+  z-index: 1;
+  td {
+    padding-left: 24px;
+    padding-right: 24px;
+    height: 48px;
+    text-align: left;
+    font-size: 13px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    background-color: inherit;
+  }
+}
+
+.Progress {
+  margin-left: 48px;
+  font-size: 16px;
+}
+.Setting {
+  i {
+    transition: all .2s ease-in-out;
+    margin-left: 48px;
+    &:hover {
+      cursor: pointer;
+      transform: scale(1.2);
+
+    }
+  }
+}

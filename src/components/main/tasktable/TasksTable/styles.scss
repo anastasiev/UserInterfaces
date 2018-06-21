@@ -1,0 +1,44 @@
+
+
+.TasksTable{
+  text-align: center;
+  table {
+    display: inline-table;
+    //background-color: #f1f1f19c;
+    width: 90%;
+    border-collapse: collapse;
+    border-spacing: 0px;
+    table-layout: fixed;
+    font-family: Roboto, sans-serif;
+  }
+  tr {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    color: rgba(0, 0, 0, 0.87);
+    height: 48px;
+  }
+  thead {
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+    tr {
+      border: none;
+
+    }
+
+    th {
+      font-weight: normal;
+      font-size: 12px;
+      padding-left: 57px;
+      padding-right: 24px;
+      height: 56px;
+      text-align: left;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      color: rgb(158, 158, 158);
+      position: relative;
+      background-color: inherit;
+    }
+  }
+
+}
+

@@ -1,0 +1,24 @@
+
+
+.LikeAction{
+  overflow-y: auto;
+  height: 450px;
+  margin-top: 5px;
+}
+.General {
+  padding-bottom: 30px;
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5);
+  margin: 1em 50px 10px;
+  text-align: center;
+  padding-top: 15px;
+  h1 {
+    color: black;
+    font-weight: 100;
+    display: inline;
+  }
+}
+.Select {
+  text-align: initial;
+  margin-left: 11vw;
+  margin-right: 13vw;
+}

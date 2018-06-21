@@ -1,0 +1,113 @@
+
+.LoginForm {
+  width: 36vw;
+  height: auto;
+  position: absolute;
+  top: 145px;
+  right: 33.3vw;
+  float: right;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  text-align: center;
+  -webkit-box-shadow: -2px 0px 92px 15px rgba(0,0,0,0.38);
+  -moz-box-shadow: -2px 0px 92px 15px rgba(0,0,0,0.38);
+  box-shadow: -2px 0px 92px 15px rgba(0,0,0,0.38);
+  z-index: 2;
+  h1 {
+    margin: 2.5vw 4vw 2.5vw;
+    padding-bottom: 2vw;
+    font-size: 3.2vw;
+    border-bottom: 1px solid #ccc;
+  }
+  p {
+    color: red;
+  }
+  a {
+    color: blue;
+    cursor: pointer;
+  }
+  input, select {
+    width: 60%;
+    height: 2vw;
+    padding: 0.9vw 1.2vw;
+    font-size: 1.2vw;
+    line-height: 1.42857143;
+    color: #555;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    margin-top: 1vw;
+    background: #fafafa;
+  }
+  select {
+    height: 3.8vw;
+    width: 67%;
+  }
+  button {
+    background: #3897f0;
+    color: #fff;
+    border-radius: 3px;
+    border: 1px solid #3897f0;
+    font-size: 1.4vw;
+    font-weight: 600;
+    line-height: 3.1vw;
+    outline: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 66%;
+    padding: 0 1.2vw;
+    cursor: pointer;
+    margin-top: 2vw;
+  }
+  div {
+    margin: 4vw 4vw 1vw;
+    padding: 2vw;
+    border-top: 1px solid #ccc;
+    span {
+      font-size: 1.4vw;
+    }
+  }
+  @media screen and (max-width: 585px) {
+    position: initial;
+    float: initial;
+    width: 80%;
+    box-shadow: 11px 19px 40px -19px;
+    margin-bottom: 6vw;
+    margin-top: 25px;
+    input, select {
+      padding: 16px 8px;
+      width: 59%;
+      font-size: 12px;
+      margin-top: 16px;
+    }
+    select {
+      width: 65%;
+      height: 40px;
+      padding: 10px 8px;
+    }
+    h1 {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      font-size: 25px;
+    }
+    button {
+      font-size: 12px;
+      line-height: 26px;
+      width: 65%;
+      margin-top: 25px;
+    }
+    div {
+      margin: 25px 4vw 75px;
+      padding: 30px;
+      span {
+        font-size: 14px;
+      }
+    }
+
+  }
+}

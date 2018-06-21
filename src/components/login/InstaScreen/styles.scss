@@ -1,0 +1,21 @@
+
+
+.InstaScreen{
+  height: 20vw;
+  width: 22vw;
+  margin: 10px 52px 10px 10px;
+  -webkit-box-shadow: 16px 16px 58px 2px rgba(0,0,0,0.48);
+  -moz-box-shadow: 16px 16px 58px 2px rgba(0,0,0,0.48);
+  box-shadow: 16px 16px 58px 2px rgba(0,0,0,0.48);
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.Mobile {
+  display: initial;
+}
+@media screen and (max-width: 593px) {
+  .Mobile {
+    display: none;
+  }
+}

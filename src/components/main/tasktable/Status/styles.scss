@@ -1,0 +1,41 @@
+@import "../../../../theme/palette";
+
+.Active {
+  border: 1px solid $activeColor;
+  color: $activeColor;
+  background-color: $activeBackgroundColor;
+}
+.Interrupted {
+  border: 1px solid $interruptedColor;
+  color: $interruptedColor;
+  background-color: $interruptedBackgroundColor;
+}
+.Preparing {
+  border: 1px solid $preparingColor;
+  color: $preparingColor;
+  background-color: $preparingBackgroundColor;
+}
+.Paused {
+  border: 1px solid $pausedColor;
+  color: $pausedColor;
+  background-color: $pausedBackgroundColor;
+}
+.Done {
+  border: 1px solid $doneColor;
+  color: $doneColor;
+  background-color: $doneBackgroundColor;
+}
+
+.Stopped {
+  border: 1px solid $stoppedColor;
+  color: $stoppedColor;
+  background-color: $stoppedBackgroundColor;
+}
+
+.Status {
+  width: 90%;
+  padding: 6px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 90%;
+}

@@ -1,0 +1,7 @@
+export const CLEAR_SEARCH = 'CLEAR_SEARCH';
+export const SET_TAGS = 'SET_TAGS';
+export const SET_LOCATIONS = 'SET_LOCATIONS';
+export const SET_RELATION = 'SET_RELATION';
+export const SET_UNFOLLOW = 'SET_UNFOLLOW';
+export const CHANGE_ACTION_TYPE = 'CHANGE_ACTION_TYPE';
+export const CHANGE_MEDIA_NUMBER = 'CHANGE_MEDIA_NUMBER';

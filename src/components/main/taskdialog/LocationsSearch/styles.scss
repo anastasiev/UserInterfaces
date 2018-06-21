@@ -1,0 +1,62 @@
+
+
+.LocationsSearch{
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-bottom: 16px;
+  margin-top: 1em;
+  .Header {
+    text-align: center;
+    padding-top: 10px;
+    h1 {
+      color: black;
+      font-weight: 100;
+      display: inline;
+      padding-left: 50px;
+      i {
+        font-weight: 100;
+        font-size: 30px;
+        color: #3897f0;
+      }
+    }
+  }
+  .Body {
+    margin-left: 11vw;
+  }
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5);
+}
+.Tag {
+  vertical-align: -4px;
+  margin-left: 5px;
+  padding-right: 4px;
+  font-weight: bolder;
+}
+.Disabled {
+  box-shadow: 6px 5px 9px -6px black;
+  opacity: 0.2;
+  &:hover {
+    opacity: 0.6;
+  }
+  & * {
+    cursor: pointer !important;
+  }
+}
+.Items {
+  text-align: center;
+  padding-top: 8px;
+  h2 {
+    font-weight: 100;
+    display: inline;
+    font-size: 18px;
+    vertical-align: 6px;
+  }
+}
+.Counter {
+  float: right;
+  margin-right: 10px;
+  color: black;
+  font-weight: 100;
+  padding: 4px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 2px;
+}

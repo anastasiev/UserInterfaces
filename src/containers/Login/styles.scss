@@ -1,0 +1,29 @@
+
+
+.Login {
+  width: 100%;
+  height: auto;
+  margin: 10px;
+}
+.Container {
+  width: auto;
+  text-align: center;
+}
+.Mobile {
+  display: initial;
+}
+@media screen and (max-width: 593px) {
+  .Mobile {
+    display: none;
+  }
+}
+@media screen and (max-width: 585px) {
+  .Container {
+    display: none;
+  }
+  .Login{
+    text-align: -webkit-center;
+    margin: 0;
+  }
+
+}

@@ -1,0 +1,41 @@
+
+
+.UserRelationSearch{
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 10px;
+  padding-bottom: 16px;
+  .Header {
+    text-align: center;
+    h1 {
+      color: black;
+      font-weight: 100;
+      padding-top: 7px;
+      i {
+        color: #FF5722;
+      }
+    }
+  }
+  .Body {
+    margin-left: 89px;
+    margin-right: 25px;
+  }
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5);
+
+}
+.Tag {
+  vertical-align: -4px;
+  margin-left: 5px;
+  padding-right: 4px;
+  font-weight: bolder;
+}
+.Disabled {
+  box-shadow: 6px 5px 9px -6px black;
+  opacity: 0.2;
+  &:hover {
+    opacity: 0.6;
+  }
+  & * {
+    cursor: pointer !important;
+  }
+}

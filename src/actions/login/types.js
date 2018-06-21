@@ -1,0 +1,13 @@
+export const SHOW_ERROR_LOGIN = 'SHOW_ERROR_LOGIN';
+export const HIDE_ERROR_LOGIN = 'HIDE_ERROR_LOGIN';
+
+export const SHOW_LOGIN_FORM = 'SHOW_LOGIN_FORM';
+export const SHOW_SIGNUP_FORM = 'SHOW_SIGNUP_FORM';
+
+export const CHANGE_LOGIN_SCREENS = 'CHANGE_LOGIN_SCREENS';
+
+export const SHOW_LOGIN_SPINNER = 'SHOW_LOGIN_SPINNER';
+export const HIDE_LOGIN_SPINNER = 'HIDE_LOGIN_SPINNER';
+
+export const LOGIN = 'LOGIN';
+export const SIGNUP = 'SIGNUP';

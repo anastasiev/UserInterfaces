@@ -1,0 +1,29 @@
+
+.ParamView {
+  display: inline;
+    .Element {
+      vertical-align: 6px;
+      font-size: 16px;
+      font-weight: 100;
+    }
+}
+.Tag {
+  vertical-align: 3px;
+  margin-left: 5px;
+  padding-right: 4px;
+  font-weight: bolder;
+}
+.Remove {
+  cursor: pointer;
+  i {
+    transition: all .2s ease-in-out;
+    border-radius: 6px;
+    font-size: 19px;
+    vertical-align: 2px;
+    color: #841919;
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+
+}
